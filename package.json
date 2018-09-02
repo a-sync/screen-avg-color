@@ -1,6 +1,6 @@
 {
   "name": "screen-avg-color",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the average color of your screen",
   "main": "index.js",
   "repository": {
@@ -8,7 +8,8 @@
     "url": "https://github.com/a-sync/screen-avg-color"
   },
   "scripts": {
-    "install": "node-gyp rebuild"
+    "install": "node-gyp rebuild",
+    "test": "node test"
   },
   "author": "a-sync",
   "license": "MIT",
